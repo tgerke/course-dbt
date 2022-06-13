@@ -20,3 +20,23 @@ sources:
         loaded_at_field: created_at
         description: >
           Contains address details for each address ID
+      - name: events
+        loaded_at_field: created_at
+        description: >
+          Contains event details for each event ID    
+      - name: order_items
+        loaded_at_field: created_at
+        description: >
+          Contains product ID and quantity for each order ID
+      - name: orders
+        loaded_at_field: created_at
+        description: >
+          Contains details for each order ID
+      - name: products
+        loaded_at_field: created_at
+        description: >
+          Contains name, price, and inventory for each product identifier:
+      - name: promos
+        loaded_at_field: created_at
+        description: >
+          Contains discount and active status for each promo ID
