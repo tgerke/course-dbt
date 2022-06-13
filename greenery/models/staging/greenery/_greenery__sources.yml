@@ -16,3 +16,7 @@ sources:
         loaded_at_field: created_at
         description: >
           Contains name, email, and phone of each user  
+      - name: addresses
+        loaded_at_field: created_at
+        description: >
+          Contains address details for each address ID
