@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_greenery__addresses
+    description: Addresses table info for docs [this describes the model we build off of addresses in src!!]
+    columns:
+      - name: address_id
+        tests:
+          - not_null
+      - name: address
+      - name: zipcode
+      - name: state
+      - name: country
