@@ -15,7 +15,11 @@ sources:
       - name: users
         loaded_at_field: created_at
         description: >
-          Contains name, email, and phone of each user  
+          Contains name, email, and phone of each user  [this documents the source table!!]
+        columns:
+          - name: user_id
+            tests:
+              - not_null
       - name: addresses
         loaded_at_field: created_at
         description: >
